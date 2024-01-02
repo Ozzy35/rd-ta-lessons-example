@@ -1,4 +1,4 @@
-package org.example;
+package Lesson5;
 
 public class Araba {
     String marka;
