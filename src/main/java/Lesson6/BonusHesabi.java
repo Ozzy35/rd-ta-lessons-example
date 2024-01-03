@@ -26,7 +26,7 @@ public class BonusHesabi {
 
     public void bonus() {
         if (this.workHours > 25) {
-            this.bonus = (workHours - 25) * 30;
+            this.bonus = (workHours - 25) * 1000;
             System.out.println("Extra çalışma saatlerine uygulanan bonus miktarı : 1000 TL " + this.bonus);
         } else {
             System.out.println("Bonus almaya hak kazanmadınız. ");
@@ -41,6 +41,8 @@ public class BonusHesabi {
         System.out.println("Çalışsanın maaşı:" + getSalary());
         System.out.println("Çalışanın çalışma saatleri: " + getWorkHours());
         System.out.println("*********************************");
+
+        bonus();
 
     }
  //GET Metodu
