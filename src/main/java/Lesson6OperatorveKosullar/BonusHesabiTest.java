@@ -1,4 +1,4 @@
-package Lesson6;
+package Lesson6OperatorveKosullar;
 
 public class BonusHesabiTest {
 
@@ -7,8 +7,7 @@ public class BonusHesabiTest {
 //        NESNE OLUSTURDUK KEY OLUSTRUDUK.2METODU YAZDIK CalıSTIRIYORUZ
         BonusHesabi emp = new BonusHesabi("Todor Rogachev ", 2000, 23);
 
-
-     emp.printInfo();
+        emp.printInfo();
     }
 }
 

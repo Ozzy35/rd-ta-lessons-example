@@ -1,4 +1,4 @@
-package Lesson6;
+package Lesson6OperatorveKosullar;
 
 public class BonusHesabi {
     //Odev5 Muhasebe departmanı için personelin çalıştığı gün bilgisini girdiğinde bu girilen
@@ -42,7 +42,7 @@ public class BonusHesabi {
         System.out.println("Çalışanın çalışma saatleri: " + getWorkHours());
         System.out.println("*********************************");
 
-        bonus();
+        bonus(); //Constructors
 
     }
  //GET Metodu
